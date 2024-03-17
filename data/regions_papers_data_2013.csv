@@ -1,0 +1,196 @@
+name,num_papers,Region,pop,Region_updated
+United States of America,87920,North America,316059947,North America
+United Kingdom of Great Britain and Northern Ireland,30907,East Asia and Pacific,64128273,Northern Europe
+Australia,12356,Europe,23128129,East Asia and Pacific
+China,12352,Europe,1363240000,East Asia and Pacific
+Canada,11038,East Asia and Pacific,35082954,North America
+Germany,7860,Europe,80645605,Western Europe
+Italy,6068,North America,60233948,Southern Europe
+Spain,5097,South Asia,46620045,Southern Europe
+Netherlands,4927,Europe,16804432,Western Europe
+France,4753,Latin America & Caribbean,66002289,Western Europe
+Japan,4313,East Asia and Pacific,127445000,East Asia and Pacific
+Sweden,3803,Europe,9600379,Northern Europe
+Norway,3372,Europe,52141,Northern Europe
+"Taiwan, Province of China",2690,East Asia and Pacific,23384547,East Asia and Pacific
+India,2608,East Asia and Pacific,1291132063,South Asia
+New Zealand,2589,Europe,4442100,East Asia and Pacific
+South Africa,2563,Europe,53873616,Sub-Saharan Africa
+Finland,2543,Europe,5438972,Northern Europe
+Israel,2263,Europe,8059500,Middle East and North Africa
+Brazil,2200,Middle East and North Africa,201721767,Latin America & Caribbean
+Switzerland,2091,Europe,8089346,Western Europe
+Belgium,1969,Middle East and North Africa,11159407,Western Europe
+Denmark,1744,East Asia and Pacific,5614932,Northern Europe
+Ireland,1631,Latin America & Caribbean,4623816,Northern Europe
+Singapore,1567,Europe,5399162,East Asia and Pacific
+"Korea, Republic of",1531,Europe,50428893,East Asia and Pacific
+Turkey,1531,Middle East and North Africa,76147624,Middle East and North Africa
+Greece,1481,Europe,10965211,Southern Europe
+Hong Kong,1453,Europe,7178900,East Asia and Pacific
+Portugal,1371,Sub-Saharan Africa,10457295,Southern Europe
+Austria,1277,Europe,8479823,Western Europe
+"Iran, Islamic Republic of",1202,Europe,78458928,Middle East and North Africa
+Malaysia,1202,Middle East and North Africa,30134807,East Asia and Pacific
+Mexico,807,East Asia and Pacific,108609,Latin America & Caribbean
+Poland,759,Europe,38040196,Eastern Europe
+Russian Federation,644,East Asia and Pacific,143506995,Eastern Europe
+Czechia,529,Latin America & Caribbean,10514272,Eastern Europe
+Hungary,498,Middle East and North Africa,9893082,Eastern Europe
+Romania,437,East Asia and Pacific,19983693,Eastern Europe
+Argentina,433,Europe,42202935,Latin America & Caribbean
+Thailand,372,Latin America & Caribbean,69578602,East Asia and Pacific
+Cyprus,367,Europe,1166968,Southern Europe
+Slovenia,362,South Asia,2059953,Southern Europe
+Saudi Arabia,301,Europe,31482498,Middle East and North Africa
+United Arab Emirates,300,Latin America & Caribbean,8751847,Middle East and North Africa
+Chile,297,East Asia and Pacific,17509925,Latin America & Caribbean
+Egypt,295,Europe,93377890,Middle East and North Africa
+Nigeria,258,East Asia and Pacific,174726123,Sub-Saharan Africa
+Estonia,230,Sub-Saharan Africa,3296367,Northern Europe
+Pakistan,221,Europe,3816680,South Asia
+Slovakia,213,Europe,5413393,Eastern Europe
+Indonesia,210,South Asia,253275918,East Asia and Pacific
+Philippines,188,East Asia and Pacific,99700107,East Asia and Pacific
+Colombia,180,Europe,46237930,Latin America & Caribbean
+Serbia,179,Europe,7164132,Southern Europe
+Bulgaria,150,Middle East and North Africa,7265115,Eastern Europe
+Croatia,147,Europe,4255689,Southern Europe
+Jordan,140,Latin America & Caribbean,7694814,Middle East and North Africa
+Lithuania,128,Middle East and North Africa,2957689,Northern Europe
+Lebanon,124,Middle East and North Africa,5678851,Middle East and North Africa
+Qatar,119,Middle East and North Africa,2035501,Middle East and North Africa
+Malta,118,Latin America & Caribbean,425967,Southern Europe
+Viet Nam,118,Middle East and North Africa,90267739,East Asia and Pacific
+Kenya,115,Latin America & Caribbean,44792368,Sub-Saharan Africa
+Bangladesh,113,East Asia and Pacific,154030139,South Asia
+North Macedonia,110,Latin America & Caribbean,2064032,Southern Europe
+Ghana,101,Sub-Saharan Africa,27525597,Sub-Saharan Africa
+Tunisia,98,Sub-Saharan Africa,11300284,Middle East and North Africa
+Iceland,91,Europe,323764,Northern Europe
+Latvia,87,Middle East and North Africa,2012647,Northern Europe
+Sri Lanka,86,Middle East and North Africa,21131756,South Asia
+Macao,83,Sub-Saharan Africa,593374,East Asia and Pacific
+"Tanzania, United Republic of",80,Europe,49253643,Sub-Saharan Africa
+Oman,78,South Asia,5079623,Middle East and North Africa
+Botswana,76,Europe,2217278,Sub-Saharan Africa
+Algeria,75,Latin America & Caribbean,38000626,Middle East and North Africa
+Uganda,75,Middle East and North Africa,35273570,Sub-Saharan Africa
+"Virgin Islands, British",75,South Asia,108041,Latin America & Caribbean
+Kuwait,71,Europe,3646518,Middle East and North Africa
+Cuba,69,Central Asia,11321579,Latin America & Caribbean
+Morocco,69,Europe,25251731,Middle East and North Africa
+Puerto Rico,64,Europe,3593077,North America
+Luxembourg,63,Central Asia,543360,Western Europe
+Ukraine,61,North America,45489648,Eastern Europe
+Ethiopia,60,Latin America & Caribbean,1118319,Sub-Saharan Africa
+Trinidad and Tobago,56,Sub-Saharan Africa,1440729,Latin America & Caribbean
+"Venezuela, Bolivarian Republic of",55,Middle East and North Africa,29838021,Latin America & Caribbean
+Peru,50,Sub-Saharan Africa,30038809,Latin America & Caribbean
+Brunei Darussalam,47,Sub-Saharan Africa,411702,East Asia and Pacific
+Uruguay,46,East Asia and Pacific,3381180,Latin America & Caribbean
+Albania,44,Middle East and North Africa,2895092,Eastern Europe
+Costa Rica,41,Europe,4791535,Latin America & Caribbean
+Kazakhstan,40,Central Asia,17035551,Central Asia
+Jamaica,38,Europe,2773129,Latin America & Caribbean
+Nepal,38,Europe,27381555,South Asia
+Zimbabwe,38,Europe,13555422,Sub-Saharan Africa
+Bahrain,36,Latin America & Caribbean,1261673,Middle East and North Africa
+Fiji,32,Europe,913453,East Asia and Pacific
+Bosnia and Herzegovina,26,Latin America & Caribbean,3617559,Southern Europe
+Cameroon,26,Sub-Saharan Africa,21632850,Sub-Saharan Africa
+Namibia,26,Sub-Saharan Africa,10694,Sub-Saharan Africa
+Malawi,25,Central Asia,16024775,Sub-Saharan Africa
+Mongolia,23,East Asia and Pacific,2845153,East Asia and Pacific
+South Sudan,23,Sub-Saharan Africa,11106031,Sub-Saharan Africa
+Benin,22,Europe,10308730,Sub-Saharan Africa
+Zambia,22,Middle East and North Africa,15234976,Sub-Saharan Africa
+Azerbaijan,21,Europe,9416801,Central Asia
+Iraq,21,Sub-Saharan Africa,35481800,Middle East and North Africa
+Barbados,20,Sub-Saharan Africa,276865,Latin America & Caribbean
+Ecuador,20,Middle East and North Africa,15722989,Latin America & Caribbean
+Armenia,19,East Asia and Pacific,2901385,Western Asia
+Cambodia,19,Latin America & Caribbean,14999683,East Asia and Pacific
+Lesotho,18,Middle East and North Africa,2073939,Sub-Saharan Africa
+"Palestine, State of",18,Sub-Saharan Africa,205337562,Middle East and North Africa
+Yemen,18,Sub-Saharan Africa,26984002,Middle East and North Africa
+Sudan,17,Latin America & Caribbean,35990704,Sub-Saharan Africa
+Liechtenstein,15,Sub-Saharan Africa,36806,Western Europe
+Mauritius,15,East Asia and Pacific,1258927,Sub-Saharan Africa
+Panama,15,Sub-Saharan Africa,3821556,Latin America & Caribbean
+"Bolivia, Plurinational State of",14,Latin America & Caribbean,10743349,Latin America & Caribbean
+Burundi,13,Sub-Saharan Africa,10149577,Sub-Saharan Africa
+Bahamas,13,Europe,385650,Latin America & Caribbean
+Belarus,13,Middle East and North Africa,9443211,Eastern Europe
+Syrian Arab Republic,13,Latin America & Caribbean,21495821,Middle East and North Africa
+Georgia,12,Middle East and North Africa,3717668,Eastern Europe
+Mozambique,12,Sub-Saharan Africa,50648334,Sub-Saharan Africa
+Rwanda,12,East Asia and Pacific,11101350,Sub-Saharan Africa
+Kosovo,12,Sub-Saharan Africa,1818117,Southern Europe
+Senegal,11,Sub-Saharan Africa,13595566,Sub-Saharan Africa
+Papua New Guinea,9,Sub-Saharan Africa,8245627,East Asia and Pacific
+Tajikistan,8,Latin America & Caribbean,8136610,Central Asia
+Grenada,7,Sub-Saharan Africa,116945,Latin America & Caribbean
+Kyrgyzstan,7,Europe,5719600,Central Asia
+Libya,7,Latin America & Caribbean,5985221,Middle East and North Africa
+Mali,7,Latin America & Caribbean,17004033,Sub-Saharan Africa
+New Caledonia,7,Central Asia,263650,East Asia and Pacific
+Eswatini,7,Europe,1317997,Sub-Saharan Africa
+Afghanistan,6,Sub-Saharan Africa,31541209,South Asia
+Burkina Faso,6,Sub-Saharan Africa,17636408,Sub-Saharan Africa
+Bhutan,6,Latin America & Caribbean,728889,South Asia
+Guam,6,Sub-Saharan Africa,167054,East Asia and Pacific
+Guyana,6,Latin America & Caribbean,747420,Latin America & Caribbean
+"Moldova, Republic of",6,East Asia and Pacific,2859558,Eastern Europe
+Madagascar,6,Latin America & Caribbean,23588073,Sub-Saharan Africa
+Myanmar,6,Sub-Saharan Africa,2204510,East Asia and Pacific
+Nicaragua,6,East Asia and Pacific,6119379,Latin America & Caribbean
+Réunion,6,Sub-Saharan Africa,847272,Sub-Saharan Africa
+Côte d'Ivoire,5,Sub-Saharan Africa,22469268,Sub-Saharan Africa
+Gambia,5,Sub-Saharan Africa,2124869,Sub-Saharan Africa
+Uzbekistan,5,South Asia,30243200,Central Asia
+Samoa,5,Sub-Saharan Africa,199939,East Asia and Pacific
+"Congo, Democratic Republic of the",4,Sub-Saharan Africa,4828066,Sub-Saharan Africa
+Dominica,4,Latin America & Caribbean,68819,Latin America & Caribbean
+Monaco,4,Sub-Saharan Africa,35425,Southern Europe
+Niger,4,Latin America & Caribbean,18653199,Sub-Saharan Africa
+French Polynesia,4,Europe,288032,East Asia and Pacific
+Sierra Leone,4,East Asia and Pacific,6964859,Sub-Saharan Africa
+El Salvador,4,East Asia and Pacific,6185642,Latin America & Caribbean
+Angola,3,Europe,26147002,Sub-Saharan Africa
+Congo,3,East Asia and Pacific,73460021,Sub-Saharan Africa
+Guadeloupe,3,Sub-Saharan Africa,403629,Latin America & Caribbean
+Honduras,3,Latin America & Caribbean,8960657,Latin America & Caribbean
+Liberia,3,Latin America & Caribbean,4427313,Sub-Saharan Africa
+Seychelles,3,North America,89949,Sub-Saharan Africa
+San Marino,3,Sub-Saharan Africa,33285,Southern Europe
+"Virgin Islands, U.S.",3,East Asia and Pacific,4076708,Latin America & Caribbean
+Belize,2,Sub-Saharan Africa,344688,Latin America & Caribbean
+Curaçao,2,South Asia,153822,Latin America & Caribbean
+Eritrea,2,Latin America & Caribbean,1243941,Sub-Saharan Africa
+Faroe Islands,2,Sub-Saharan Africa,48418,Northern Europe
+Gibraltar,2,Latin America & Caribbean,32411,Southern Europe
+Guatemala,2,Central Asia,15043981,Latin America & Caribbean
+Lao People's Democratic Republic,2,Sub-Saharan Africa,6600742,East Asia and Pacific
+Maldives,2,Latin America & Caribbean,400728,South Asia
+Paraguay,2,Europe,6005652,Latin America & Caribbean
+Togo,2,South Asia,7106229,Sub-Saharan Africa
+Vanuatu,2,Sub-Saharan Africa,263534,East Asia and Pacific
+Antigua and Barbuda,1,Latin America & Caribbean,88497,Latin America & Caribbean
+Bermuda,1,Latin America & Caribbean,65001,Latin America & Caribbean
+Dominican Republic,1,Sub-Saharan Africa,10157051,Latin America & Caribbean
+Micronesia,1,Sub-Saharan Africa,117290686,East Asia and Pacific
+Gabon,1,Latin America & Caribbean,1902226,Sub-Saharan Africa
+French Guiana,1,Latin America & Caribbean,246380,Latin America & Caribbean
+Greenland,1,Sub-Saharan Africa,56483,North America
+Guinea,1,Latin America & Caribbean,11055430,Sub-Saharan Africa
+Haiti,1,Sub-Saharan Africa,10261206,Latin America & Caribbean
+Isle of Man,1,Sub-Saharan Africa,84144,Northern Europe
+Cayman Islands,1,East Asia and Pacific,58212,Latin America & Caribbean
+Saint Lucia,1,Latin America & Caribbean,173978,Latin America & Caribbean
+Montenegro,1,Europe,621207,Southern Europe
+Montserrat,1,Latin America & Caribbean,33803527,Latin America & Caribbean
+Suriname,1,Sub-Saharan Africa,563947,Latin America & Caribbean
+Sao Tome and Principe,1,Sub-Saharan Africa,193757,Sub-Saharan Africa
+Chad,1,Sub-Saharan Africa,13216766,Sub-Saharan Africa
+Tonga,1,Europe,107089,East Asia and Pacific
