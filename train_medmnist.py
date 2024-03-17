@@ -4,7 +4,7 @@ from torchvision import transforms, datasets
 from torch.utils.data import SubsetRandomSampler,random_split, DataLoader
 import numpy as np
 import pandas as pd
-from datasets import LIDCdataset, DermaMNIST
+from data.datasets import LIDCdataset, DermaMNIST
 from tools import makeLogFile,writeLog,dice,dice_loss,multiClassAccuracy
 import time
 import pdb

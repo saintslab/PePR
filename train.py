@@ -4,7 +4,7 @@ from torchvision import transforms, datasets
 from torch.utils.data import SubsetRandomSampler,random_split, DataLoader
 import numpy as np
 import pandas as pd
-from datasets import LIDCdataset
+from data.datasets import LIDCdataset
 from tools import makeLogFile,writeLog,dice,dice_loss,binary_accuracy
 import time
 import pdb
