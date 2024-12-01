@@ -19,7 +19,7 @@ params = {'font.size': 14,
 matplotlib.rcParams.update(params)
 ms = 50
 alpha = 1.0
-
+median_param = np.log10(24.6e6)
 
 data = pd.read_csv('full_data_pepr_dataset_level.csv')
 resnet = pd.read_csv('results-imagenet.csv')
@@ -44,11 +44,19 @@ for i in range(len(df)):
 df['pepr_m'] = (df.top1/100)/(1+df.M_n)
 df.to_csv('full_data_pepr_imagenet.csv',index=False)
 
+paramRange = np.linspace(np.log10(0.9*min(df.num_param)),np.log10(max(df.num_param)),50)
 ### Make pepr-M plot
 #pdb.set_trace()
 plt.figure(figsize=(12,6))
 plt.subplot(121)
-sns.scatterplot(y=df.top1/100,x=np.log10(df.num_param),hue=df.type,style=df.efficient,s=ms,alpha=alpha)
+plt.fill_between(paramRange,\
+        np.ones(len(paramRange)),\
+        where=paramRange  <median_param,
+                 facecolor='tab:grey',alpha=0.3)
+
+sns.scatterplot(y=df.top1/100,x=np.log10(df.num_param),hue=df.efficient,style=df.efficient,s=ms,alpha=alpha)
+#plt.plot(median_param*np.ones(10),np.linspace(0,1.02,10),'--',c='tab:red',alpha=0.5)
+
 plt.grid(axis='y')
 plt.ylim([0.4,0.95])
 plt.xlabel('Number of trainable parameters (log$_{10}$)')
@@ -56,7 +64,14 @@ plt.ylabel('Performance')
 plt.title('a) Test performance vs number of parameters',y=-0.25)
 
 plt.subplot(122)
-sns.scatterplot(y=df.pepr_m,x=np.log10(df.num_param),hue=df.type,style=df.efficient,s=ms)
+sns.scatterplot(y=df.pepr_m,x=np.log10(df.num_param),hue=df.efficient,style=df.efficient,s=ms)
+plt.fill_between(paramRange,\
+        np.ones(len(paramRange)),\
+        where=paramRange  <median_param,
+                 facecolor='tab:grey',alpha=0.3)
+
+#plt.plot(median_param*np.ones(10),np.linspace(0,1.02,10),'--',c='tab:red',alpha=0.5)
+
 plt.ylim([0.3,0.85])
 plt.grid(axis='y')
 plt.xlabel('Number of trainable parameters (log$_{10}$)')

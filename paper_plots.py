@@ -24,7 +24,7 @@ params = {'font.size': 14,
 matplotlib.rcParams.update(params)
 ms = 50
 alpha = 1.0
-
+median_param = np.log10(24.6e6)
 ### Figure-1
 
 df13 = pd.read_csv('data/regions_papers_data_2013.csv')
@@ -92,11 +92,18 @@ datasets = ['derma_pt','lidc','lidc_small','derma', \
 fullDf = pd.read_csv('data/full_data_pepr_dataset_level.csv')
 
 tmp = allDf.drop(columns=['type','dataset']).groupby('model').mean().reset_index()
+paramRange = np.linspace(np.log10(0.9*min(tmp.num_param)),np.log10(max(tmp.num_param)),50)
 
 ## Models vs param
 plt.clf()
 plt.figure(figsize=(6,5))
+plt.fill_between(paramRange,\
+        np.ones(len(paramRange)),\
+        where=paramRange  <median_param,
+                 facecolor='tab:grey',alpha=0.3)
+
 sns.scatterplot(y=tmp.energy/tmp.energy.max(),x=np.log10(tmp.num_param),hue=models.efficient,style=models.efficient,s=ms)
+#plt.plot(median_param*np.ones(10),np.linspace(0,1.02,10),'--',c='tab:red',alpha=0.5)
 plt.xlabel('Number of trainable parameters (log$_{10}$)')
 plt.ylabel('Energy consumption (kWh)')
 plt.grid()
@@ -166,8 +173,13 @@ plt.text((x1+x2)*.5, y+1.2*h, "p<0.001", ha='center', va='bottom', color=col,fon
 plt.tight_layout()
 
 ax = fig.add_subplot(gs[0,2:4])
+plt.fill_between(paramRange,\
+        np.ones(len(paramRange))*0.85,\
+        where=paramRange  <median_param,
+                 facecolor='tab:grey',alpha=0.3)
 
 sns.scatterplot(y=tmp.test_09,x=np.log10(tmp.num_param),hue=models.efficient,style=models.efficient,s=ms,alpha=alpha)
+#plt.plot(median_param*np.ones(10),np.linspace(0,1.02,10),'--',c='tab:red',alpha=0.5)
 plt.grid(axis='y')
 plt.ylim([0.3,0.85])
 plt.xlabel('Number of trainable parameters (log$_{10}$)')
@@ -176,8 +188,13 @@ plt.title('c) Test performance vs number of parameters',y=-0.25)
 plt.tight_layout()
 
 ax = fig.add_subplot(gs[0,4:])
+plt.fill_between(paramRange,\
+        np.ones(len(paramRange))*0.85,\
+        where=paramRange  <median_param,
+                 facecolor='tab:grey',alpha=0.3)
 
 sns.scatterplot(y=tmp.pepr_e,x=np.log10(tmp.num_param),hue=models.efficient,style=models.efficient,s=ms)
+#plt.plot(median_param*np.ones(10),np.linspace(0,1.02,10),'--',c='tab:red',alpha=0.5)
 plt.ylim([0.3,0.85])
 plt.grid(axis='y')
 plt.xlabel('Number of trainable parameters (log$_{10}$)')
@@ -195,7 +212,13 @@ plt.clf()
 plt.plot(figsize=(12,5.5))
 
 plt.subplot(131)
+plt.fill_between(paramRange,\
+        np.ones(len(paramRange))*0.85,\
+        where=paramRange  <median_param,
+                 facecolor='tab:grey',alpha=0.3)
+
 sns.scatterplot(y=tmp.pepr_c,x=np.log10(tmp.num_param),hue=models.efficient,style=models.efficient,s=ms,alpha=alpha)
+#plt.plot(median_param*np.ones(10),np.linspace(0,1.02,10),'--',c='tab:red',alpha=0.5)
 plt.grid(axis='y')
 plt.ylim([0.3,0.85])
 plt.xlabel('Number of trainable parameters (log$_{10}$)')
@@ -204,7 +227,13 @@ plt.title('a) PePR-C score vs num. of parameters',y=-0.25)
 plt.tight_layout()
 
 plt.subplot(132)
+plt.fill_between(paramRange,\
+        np.ones(len(paramRange))*0.85,\
+        where=paramRange  <median_param,
+                 facecolor='tab:grey',alpha=0.3)
+
 sns.scatterplot(y=tmp.pepr_m,x=np.log10(tmp.num_param),hue=models.efficient,style=models.efficient,s=ms,alpha=alpha)
+#plt.plot(median_param*np.ones(10),np.linspace(0,1.02,10),'--',c='tab:red',alpha=0.5)
 plt.grid(axis='y')
 plt.ylim([0.3,0.85])
 plt.xlabel('Number of trainable parameters (log$_{10}$)')
@@ -213,7 +242,12 @@ plt.title('b) PePR-M vs num. of parameters',y=-0.25)
 plt.tight_layout()
 
 plt.subplot(133)
+plt.fill_between(paramRange,\
+        np.ones(len(paramRange))*0.85,\
+        where=paramRange  <median_param,
+                 facecolor='tab:grey',alpha=0.3)
 sns.scatterplot(y=tmp.pepr_t,x=np.log10(tmp.num_param),hue=models.efficient,style=models.efficient,s=ms,alpha=alpha)
+#plt.plot(median_param*np.ones(10),np.linspace(0,1.02,10),'--',c='tab:red',alpha=0.5)
 plt.grid(axis='y')
 plt.ylim([0.3,0.85])
 plt.xlabel('Number of trainable parameters (log$_{10}$)')
