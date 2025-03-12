@@ -12,11 +12,14 @@ The recent advances in deep learning (DL) have been accelerated by access to lar
 ## Citation
 Kindly use the following BibTeX entry if you use the code in your work.
 ```
-@article{selvan2024pepr,
- 	title={Equity through Access: A Case for Small-scale Deep Learning},
-	author={Raghavendra Selvan, Bob Pepin, Christian Igel, Gabrielle Samuel, Erik B Dam}
- 	journal={Arxiv},
-	year={2024}}
+@inproceedings{selvan2025pepr,
+  title={PePR: Performance Per Resource Unit as a Metric to Promote Small-scale Deep Learning},
+  author={Selvan, Raghavendra and Pepin, Bob and Igel, Christian and Samuel, Gabrielle and Dam, Erik B},
+  booktitle={Northern Lights Deep Learning Conference},
+  pages={220--229},
+  year={2025},
+  organization={PMLR}
+}
 ```
 ## Requirements
 
